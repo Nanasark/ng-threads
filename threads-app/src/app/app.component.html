@@ -1,0 +1,15 @@
+<div class="min-h-screen flex flex-col">
+    <header class="h-12 px-3 flex items-center bg-cyan-950 text-white justify-between">
+        <span>Threads</span>
+        <nav>
+            <ul class="flex gap-4">
+                <li routerLinkActive="underline underline-offset-2" class="hover:underline hover:underline-offset-2"> <a routerLink ='/home'>Home</a></li>
+                <li routerLinkActive="underline underline-offset-2" class="hover:underline hover:underline-offset-2"> <a routerLink='/about'>About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="px-3 py-4 ">
+        <router-outlet/>
+    </main>
+</div>
